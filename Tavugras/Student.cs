@@ -10,13 +10,18 @@ namespace Tavugras
     {
         private string name;
         private string city;
-        private int result;
+        private string result;
 
-        public Student(string name, string city, int result)
+        public Student(string name, string city, string result)
         {
             this.name = name;
             this.city = city;
             this.result = result;
+        }
+
+        public override string ToString()
+        {
+            return $"{name} ({city})";
         }
     }
 }
