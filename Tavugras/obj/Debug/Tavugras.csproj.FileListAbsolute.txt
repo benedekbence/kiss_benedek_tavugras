@@ -9,3 +9,14 @@ H:\Tavugras IKT\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.csproj.CoreCom
 H:\Tavugras IKT\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.exe
 H:\Tavugras IKT\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.pdb
 H:\Tavugras IKT\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.exe.config
+H:\12-iktp\kiss_benedek_tavugras\Tavugras\bin\Debug\Tavugras.exe.config
+H:\12-iktp\kiss_benedek_tavugras\Tavugras\bin\Debug\Tavugras.exe
+H:\12-iktp\kiss_benedek_tavugras\Tavugras\bin\Debug\Tavugras.pdb
+H:\12-iktp\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.csproj.AssemblyReference.cache
+H:\12-iktp\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.exe.config
+H:\12-iktp\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.Form1.resources
+H:\12-iktp\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.Properties.Resources.resources
+H:\12-iktp\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.csproj.GenerateResource.cache
+H:\12-iktp\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.csproj.CoreCompileInputs.cache
+H:\12-iktp\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.exe
+H:\12-iktp\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.pdb

@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\Tavugras IKT\\kiss_benedek_tavugras\\Tavugras\\",
+  "WorkspaceRootPath": "H:\\12-iktp\\kiss_benedek_tavugras\\Tavugras\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCBF1663-475B-4144-B173-6D2D67C532C2}|Tavugras.csproj|h:\\tavugras ikt\\kiss_benedek_tavugras\\tavugras\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FCBF1663-475B-4144-B173-6D2D67C532C2}|Tavugras.csproj|h:\\12-iktp\\kiss_benedek_tavugras\\tavugras\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCBF1663-475B-4144-B173-6D2D67C532C2}|Tavugras.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCBF1663-475B-4144-B173-6D2D67C532C2}|Tavugras.csproj|H:\\Tavugras IKT\\kiss_benedek_tavugras\\Tavugras\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FCBF1663-475B-4144-B173-6D2D67C532C2}|Tavugras.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FCBF1663-475B-4144-B173-6D2D67C532C2}|Tavugras.csproj|H:\\12-iktp\\kiss_benedek_tavugras\\Tavugras\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBF1663-475B-4144-B173-6D2D67C532C2}|Tavugras.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCBF1663-475B-4144-B173-6D2D67C532C2}|Tavugras.csproj|h:\\tavugras ikt\\kiss_benedek_tavugras\\tavugras\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCBF1663-475B-4144-B173-6D2D67C532C2}|Tavugras.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCBF1663-475B-4144-B173-6D2D67C532C2}|Tavugras.csproj|H:\\12-iktp\\kiss_benedek_tavugras\\Tavugras\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCBF1663-475B-4144-B173-6D2D67C532C2}|Tavugras.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
-              "DocumentMoniker": "H:\\Tavugras IKT\\kiss_benedek_tavugras\\Tavugras\\Student.cs",
+              "DocumentMoniker": "H:\\12-iktp\\kiss_benedek_tavugras\\Tavugras\\Student.cs",
               "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "H:\\Tavugras IKT\\kiss_benedek_tavugras\\Tavugras\\Student.cs",
+              "ToolTip": "H:\\12-iktp\\kiss_benedek_tavugras\\Tavugras\\Student.cs",
               "RelativeToolTip": "Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T08:04:48.539Z",
               "EditorCaption": ""
@@ -41,22 +41,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "H:\\Tavugras IKT\\kiss_benedek_tavugras\\Tavugras\\Form1.cs",
+              "DocumentMoniker": "H:\\12-iktp\\kiss_benedek_tavugras\\Tavugras\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "H:\\Tavugras IKT\\kiss_benedek_tavugras\\Tavugras\\Form1.cs",
+              "ToolTip": "H:\\12-iktp\\kiss_benedek_tavugras\\Tavugras\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwF0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T08:10:21.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "H:\\Tavugras IKT\\kiss_benedek_tavugras\\Tavugras\\Form1.cs",
+              "DocumentMoniker": "H:\\12-iktp\\kiss_benedek_tavugras\\Tavugras\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "H:\\Tavugras IKT\\kiss_benedek_tavugras\\Tavugras\\Form1.cs [Design]",
+              "ToolTip": "H:\\12-iktp\\kiss_benedek_tavugras\\Tavugras\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T08:04:25.773Z",
