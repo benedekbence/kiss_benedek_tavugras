@@ -59,7 +59,9 @@ namespace Tavugras
             filtered = new List<Student>();
             foreach (var item in students)
             {
-                if (item.ToString().Contains(filterTextBox.Text))
+                
+                
+                if (item.ToString().ToLower().Contains(filterTextBox.Text))
                 { 
                     filtered.Add(item);
 
@@ -78,7 +80,20 @@ namespace Tavugras
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
 
+            saveFileDialog.InitialDirectory = Application.StartupPath;
+            saveFileDialog.Filter = "Szüveges fájl|*.txt";
+            DialogResult result = saveFileDialog.ShowDialog();
+            if (result != DialogResult.OK) return;
+
+            using (StreamWriter wr = new StreamWriter(saveFileDialog.FileName)) 
+            {
+                foreach (var item in contestantsListBox.Items)
+                {
+                    wr.WriteLine(item);
+                }
+            }
         }
 
         private void loadToolStripMenuItem_Click(object sender, EventArgs e)
@@ -86,7 +101,7 @@ namespace Tavugras
             OpenFileDialog openFileDialog = new OpenFileDialog();
 
             openFileDialog.InitialDirectory = Application.StartupPath;
-            openFileDialog.Filter = "Szüveges fájl|*.txt";
+            openFileDialog.Filter = "Szöveges fájl|*.txt";
             DialogResult result = openFileDialog.ShowDialog();
             if (result != DialogResult.OK) return;
             students.Clear();
@@ -98,15 +113,54 @@ namespace Tavugras
                     string jumps = "";
                     for (int i = 2; i < temp.Length; i++)
                     {
-                        jumps += $";{temp[i]}";
+                        if (jumps.Length == 0) 
+                        {
+                            jumps += $"{temp[i]}";
+
+                        }
+                        else
+                        {
+                            jumps += $";{temp[i]}";
+                        }
                     }
                     Student s = new Student(temp[0], temp[1], jumps);
                     students.Add(s);
                 }
                 
             }
-            MessageBox.Show(students.Count.ToString());
             UpdateListBox(students);
+        }
+
+        private void contestantsListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            validLabel.Visible = true;
+            avgLabel.Visible = true;
+            maxLabel.Visible = true;
+
+            Student s = contestantsListBox.SelectedItem as Student;
+
+
+            validLabel.Text = " Number of valid jumps: " + s.ValidJumps();
+            avgLabel.Text = "Avarage distance: " + s.AvgValidJumps();
+            maxLabel.Text = "Maximum distance: " + s.BestValidJumps();
+
+        }
+
+        private void avgRadio_CheckedChanged(object sender, EventArgs e)
+        {
+            List<Student> temp = new List<Student>();
+            RadioButton r = sender as RadioButton;
+            if (avgRadio.Checked)
+            {
+                temp = filtered.OrderByDescending(x => x.AvgValidJumps()).ToList();
+            }
+            else if (maxRadio.Checked)
+            {
+                temp = filtered.OrderByDescending(x => x.BestValidJumps()).ToList();
+            }
+
+            UpdateListBox(temp);
+
         }
     }
 }

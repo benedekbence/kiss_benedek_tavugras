@@ -45,6 +45,11 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.avgLabel = new System.Windows.Forms.Label();
+            this.maxLabel = new System.Windows.Forms.Label();
+            this.validLabel = new System.Windows.Forms.Label();
+            this.avgRadio = new System.Windows.Forms.RadioButton();
+            this.maxRadio = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.winnersNum)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -125,6 +130,7 @@
             this.contestantsListBox.Name = "contestantsListBox";
             this.contestantsListBox.Size = new System.Drawing.Size(232, 204);
             this.contestantsListBox.TabIndex = 7;
+            this.contestantsListBox.SelectedIndexChanged += new System.EventHandler(this.contestantsListBox_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -196,22 +202,86 @@
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // loadToolStripMenuItem
             // 
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.loadToolStripMenuItem.Text = "Load";
             this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
+            // 
+            // avgLabel
+            // 
+            this.avgLabel.AutoSize = true;
+            this.avgLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.avgLabel.Location = new System.Drawing.Point(27, 321);
+            this.avgLabel.Name = "avgLabel";
+            this.avgLabel.Size = new System.Drawing.Size(140, 20);
+            this.avgLabel.TabIndex = 15;
+            this.avgLabel.Text = "Avarage distance: ";
+            this.avgLabel.Visible = false;
+            // 
+            // maxLabel
+            // 
+            this.maxLabel.AutoSize = true;
+            this.maxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.maxLabel.Location = new System.Drawing.Point(27, 360);
+            this.maxLabel.Name = "maxLabel";
+            this.maxLabel.Size = new System.Drawing.Size(148, 20);
+            this.maxLabel.TabIndex = 16;
+            this.maxLabel.Text = "Maximum distance: ";
+            this.maxLabel.Visible = false;
+            // 
+            // validLabel
+            // 
+            this.validLabel.AutoSize = true;
+            this.validLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.validLabel.Location = new System.Drawing.Point(23, 283);
+            this.validLabel.Name = "validLabel";
+            this.validLabel.Size = new System.Drawing.Size(176, 20);
+            this.validLabel.TabIndex = 17;
+            this.validLabel.Text = " Number of valid jumps: ";
+            this.validLabel.Visible = false;
+            // 
+            // avgRadio
+            // 
+            this.avgRadio.AutoSize = true;
+            this.avgRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.avgRadio.Location = new System.Drawing.Point(511, 384);
+            this.avgRadio.Name = "avgRadio";
+            this.avgRadio.Size = new System.Drawing.Size(210, 24);
+            this.avgRadio.TabIndex = 18;
+            this.avgRadio.TabStop = true;
+            this.avgRadio.Text = "Sort by  avarage distance ";
+            this.avgRadio.UseVisualStyleBackColor = true;
+            this.avgRadio.CheckedChanged += new System.EventHandler(this.avgRadio_CheckedChanged);
+            // 
+            // maxRadio
+            // 
+            this.maxRadio.AutoSize = true;
+            this.maxRadio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.maxRadio.Location = new System.Drawing.Point(511, 414);
+            this.maxRadio.Name = "maxRadio";
+            this.maxRadio.Size = new System.Drawing.Size(207, 24);
+            this.maxRadio.TabIndex = 19;
+            this.maxRadio.TabStop = true;
+            this.maxRadio.Text = "Sort by maximus distance";
+            this.maxRadio.UseVisualStyleBackColor = true;
+            this.maxRadio.CheckedChanged += new System.EventHandler(this.avgRadio_CheckedChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.maxRadio);
+            this.Controls.Add(this.avgRadio);
+            this.Controls.Add(this.validLabel);
+            this.Controls.Add(this.maxLabel);
+            this.Controls.Add(this.avgLabel);
             this.Controls.Add(this.winnersNum);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -256,6 +326,11 @@
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem loadToolStripMenuItem;
+        private System.Windows.Forms.Label avgLabel;
+        private System.Windows.Forms.Label maxLabel;
+        private System.Windows.Forms.Label validLabel;
+        private System.Windows.Forms.RadioButton avgRadio;
+        private System.Windows.Forms.RadioButton maxRadio;
     }
 }
 

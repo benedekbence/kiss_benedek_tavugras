@@ -20,3 +20,14 @@ H:\12-iktp\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.csproj.GenerateReso
 H:\12-iktp\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.csproj.CoreCompileInputs.cache
 H:\12-iktp\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.exe
 H:\12-iktp\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.pdb
+C:\Users\Dell\OneDrive\Asztali gép\suli\bentigit\kiss_benedek_tavugras\Tavugras\bin\Debug\Tavugras.exe.config
+C:\Users\Dell\OneDrive\Asztali gép\suli\bentigit\kiss_benedek_tavugras\Tavugras\bin\Debug\Tavugras.exe
+C:\Users\Dell\OneDrive\Asztali gép\suli\bentigit\kiss_benedek_tavugras\Tavugras\bin\Debug\Tavugras.pdb
+C:\Users\Dell\OneDrive\Asztali gép\suli\bentigit\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\Asztali gép\suli\bentigit\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.exe.config
+C:\Users\Dell\OneDrive\Asztali gép\suli\bentigit\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.Form1.resources
+C:\Users\Dell\OneDrive\Asztali gép\suli\bentigit\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.Properties.Resources.resources
+C:\Users\Dell\OneDrive\Asztali gép\suli\bentigit\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.csproj.GenerateResource.cache
+C:\Users\Dell\OneDrive\Asztali gép\suli\bentigit\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.csproj.CoreCompileInputs.cache
+C:\Users\Dell\OneDrive\Asztali gép\suli\bentigit\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.exe
+C:\Users\Dell\OneDrive\Asztali gép\suli\bentigit\kiss_benedek_tavugras\Tavugras\obj\Debug\Tavugras.pdb
